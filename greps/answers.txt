@@ -1,8 +1,24 @@
 # Part 1
 ### a)
 
+grep beed forest/filescan_00.1 > forest/beedrill.txt
+grep bulb forest/filescan_00.1 > forest/bulbasaur.txt
+grep butt forest/filescan_00.1 > forest/butterfree.txt
+grep blas forest/filescan_00.1 > forest/blastoise.txt
 
+grep izard forest/filescan_00.2 > forest/charizard.txt
+grep mander forest/filescan_00.2 > forest/charmander.txt
+grep meleon forest/filescan_00.2 > forest/charmaleon.txt
 
+grep ivys forest/filescan_00.3 > forest/ivysaur.txt   
+grep jigg forest/filescan_00.3 > forest/jigglypuff.txt
+grep meow forest/filescan_00.3 > forest/meowth.txt
+grep pika forest/filescan_00.3 > forest/pikachu.txt
+
+grep psyd forest/filescan_00.4 > forest/psyduck.txt
+grep squi forest/filescan_00.4 > forest/squirtle.txt
+grep venu forest/filescan_00.4 > forest/venusaur.txt
+grep wart forest/filescan_00.4 > forest/wartortle.txt
 
 ### b)
 
