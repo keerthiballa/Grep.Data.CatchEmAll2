@@ -22,33 +22,48 @@ grep wart forest/filescan_00.4 > forest/wartortle.txt
 
 ### b)
 
+grep beed forest/filescan_00.1 > captured/beedrill.txt
+grep bulb forest/filescan_00.1 > captured/bulbasaur.txt
+grep butt forest/filescan_00.1 > captured/butterfree.txt
+grep blas forest/filescan_00.1 > captured/blastoise.txt
 
+grep izard forest/filescan_00.2 > captured/charizard.txt
+grep mander forest/filescan_00.2 > captured/charmander.txt
+grep meleon forest/filescan_00.2 > captured/charmaleon.txt
+
+grep ivys forest/filescan_00.3 > captured/ivysaur.txt
+grep jigg forest/filescan_00.3 > captured/jigglypuff.txt
+grep meow forest/filescan_00.3 > captured/meowth.txt
+grep pika forest/filescan_00.3 > captured/pikachu.txt
+
+grep psyd forest/filescan_00.4 > captured/psyduck.txt
+grep squi forest/filescan_00.4 > captured/squirtle.txt
+grep venu forest/filescan_00.4 > captured/venusaur.txt
 
 ### c)
+grep -l beed ./forest/* 
+grep -l bulb ./forest/*
+grep -l butt ./forest/* 
+grep -l blas ./forest/* 
 
+grep -l izard ./forest/* 
+grep -l mander ./forest/* 
+grep -l meleon ./forest/* 
 
+grep -l ivys ./forest/* 
+grep -l jigg ./forest/* 
+grep -l meow ./forest/* 
+grep -l pika ./forest/* 
 
-
-
-
-
-
-
-
-
-
+grep -l psyd ./forest/* 
+grep -l squi ./forest/* 
+grep -l venu ./forest/* 
+grep -l wart ./forest/* 
 
 # Part 2
 ### a)
-
-
-
-
-
+ls captured | grep -e 'txt' | wc -l
 
 ### b)
-
-
-
-
-
+wc -l captured/* | grep -e " \d\d " | sort -r #to remove total & display files in sorted order
+grep -c ^ captured/* #gives unsorted list
